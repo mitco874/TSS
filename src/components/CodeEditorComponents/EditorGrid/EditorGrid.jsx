@@ -35,8 +35,7 @@ export const EditorGrid = ({code,className}) => {
                   showLineNumbers: true,
                   }}
                 editorProps={{ $blockScrolling: true }}
-                style={{height:"50vh",width:'95%'}}/>
-
+                style={{height:"70vh" ,width:'100vh'}}/>
     </div>
   )
 }

@@ -20,8 +20,8 @@ export const PracticeCodeEditor = () => {
       <h2 className="text-center" style={{'width':'100vh'}} > {titulo_practica} </h2>
       <section className="container" style={{height:'90vh','width':'100vh'}}>
         <div className="row">
-          <div className="col-4"><Description description={"descripcion"}/></div>
-          <div className="col-8 " style={{height:'60vh'}}><EditorGrid code={contenido} className={titulo_practica}/></div>
+          <div className="col-1"><Description description={"descripcion"}/></div>
+          <div className="col-11 " style={{height:'60vh'}}><EditorGrid code={contenido} className={titulo_practica}/></div>
         </div>
         {/* <div className="mt-2 col col-12"><Console/></div> */}
       </section>

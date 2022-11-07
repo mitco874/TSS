@@ -1,0 +1,20 @@
+.Class{
+    display:flex;
+    flex-direction: column;
+    background-color: rgb(143, 135, 135);
+    width: 60vh;
+    height: 35vh;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Class p{
+    text-align: center;
+}
+
+.ClassImage{
+    background-color: rgb(184, 183, 181);
+    width: 45vh;
+    height: 25vh;
+}

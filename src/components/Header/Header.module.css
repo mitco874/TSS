@@ -1,0 +1,23 @@
+
+
+.User{
+    margin-left: auto; 
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.Header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 10px solid #000000;
+  }

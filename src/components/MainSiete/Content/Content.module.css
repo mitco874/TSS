@@ -1,0 +1,13 @@
+.childContent {
+    flex-grow: 1;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    background-color: #e2e2e2;
+    border-radius: 10px;
+   /* border: 10px solid #000000;*/
+  }

@@ -1,0 +1,47 @@
+.Class{
+    display:flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.788);
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Class p{
+    text-align: center;
+}
+
+.ClassImage{
+    background-color: rgb(202, 183, 5);
+    width: 45vh;
+    height: 25vh;
+}
+.dropdown-toggle {
+    background-color: transparent;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+  }
+  .dropdown-menu{
+    background-color: rgb(255, 255, 255);
+  }
+  .dropdown-menu>li>a{
+    color: rgb(0, 0, 0);
+  }
+  .dropdown {
+    width: 75%;
+    height: 75px;
+  }
+  .dropdown-trigger {
+    width: 75%;
+    height: 75px;  }
+    
+  button {
+    width: 75%;
+    height: 60px;
+    padding-top: 0px;
+    line-height: 100px;
+  }

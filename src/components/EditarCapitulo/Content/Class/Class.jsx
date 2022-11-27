@@ -19,6 +19,7 @@ export const Class = () => {
           type="text"
           id="titulocap"
           name="titulocap"
+          placeholder="Ingrese nombre del capitulo"
           value={titulocap}
           onChange={(e) => setTitulocap(e.target.value)}
         />
@@ -30,6 +31,7 @@ export const Class = () => {
           type="text"
           id="EnlaceMat"
           name="EnlaceMat"
+          placeholder="Ingrese el enlace del archivo"
           value={EnlaceMat}
           onChange={(e) => setEnlaceMat(e.target.value)}
         />
@@ -53,6 +55,7 @@ export const Class = () => {
           type="text"
           id="TituloEjem"
           name="TituloEjem"
+          placeholder="Ingrese el titulo del ejemplo practico"
           value={TituloEjem}
           onChange={(e) => setTituloEjem(e.target.value)}
         />

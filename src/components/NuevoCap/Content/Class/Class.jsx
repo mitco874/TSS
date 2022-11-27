@@ -23,6 +23,7 @@ export const Class = () => {
           type="text"
           id="titulocap"
           name="titulocap"
+          placeholder="Ingrese el nomnbre del capitulo"
           value={titulocap}
           onChange={(e) => setTitulocap(e.target.value)}
         />
@@ -34,6 +35,7 @@ export const Class = () => {
           type="text"
           id="titulomat"
           name="titulomat"
+          placeholder="Ingrese el nombre del material"
           value={titulomat}
           onChange={(e) => setTitulomat(e.target.value)}
         />
@@ -56,6 +58,7 @@ export const Class = () => {
           type="text"
           id="EnlaceMat"
           name="EnlaceMat"
+          placeholder="Ingrese el enlace del archivo"
           value={EnlaceMat}
           onChange={(e) => setEnlaceMat(e.target.value)}
         />
@@ -67,6 +70,7 @@ export const Class = () => {
           type="text"
           id="tituloforo"
           name="tituloforo"
+          placeholder="Ingrese el titulo del foro para este capitulo"
           value={tituloforo}
           onChange={(e) => setTituloforo(e.target.value)}
         />
@@ -101,6 +105,7 @@ export const Class = () => {
           type="text"
           id="TituloEjem"
           name="TituloEjem"
+          placeholder="ingrese el titulo del ejemplo practico"
           value={TituloEjem}
           onChange={(e) => setTituloEjem(e.target.value)}
         />

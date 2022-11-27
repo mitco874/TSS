@@ -12,6 +12,7 @@ import Main from "./Main/Main";
 import Chapter from "./Chapter/Main";
 import { Material } from "../EducationPlatform/pages/Material";
 import { PracticeCodeEditor } from "./CodeEditorComponents/PracticeCodeEditor/PracticeCodeEditor";
+import EditarCapitulo from "./EditarCapitulo/Main";
 
 export const App = () => {
   return (
@@ -30,6 +31,10 @@ export const App = () => {
         <Route path="/practicas/:chapterId" element={<Material />} />
         <Route path="/compiler/:practiceId" element={<PracticeCodeEditor />} />
         <Route path="/clases/id_clase/crear-capitulo" element={<NuevoCap />} />
+        <Route
+          path="/clases/1234/editar-capitulo"
+          element={<EditarCapitulo />}
+        />
       </Routes>
     </BrowserRouter>
   );

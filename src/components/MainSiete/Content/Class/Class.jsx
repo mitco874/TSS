@@ -1,6 +1,5 @@
 import React from "react";
 import styles from "./Class.module.css";
-import { PDFReader } from "reactjs-pdf-reader";
 
 export const Class = () => {
   return (
